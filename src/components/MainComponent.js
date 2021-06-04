@@ -24,7 +24,7 @@ class Main extends Component {
                 <NavbarBrand href="/">Shai's Restaurant</NavbarBrand>
               </div>
             </Navbar>
-            <Menu dishes={this.state.dishes} />
+            <Menu dishes={this.state.dishes} onClick={() => console.log("click detected")} />
           </div>
         );
     }
