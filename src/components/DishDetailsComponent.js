@@ -10,7 +10,9 @@ function RenderComments({comments}) {
 }
 
 const DishDetail = (props) => {
-
+    return (
+        null
+    )
 }
 
 export default DishDetail;
