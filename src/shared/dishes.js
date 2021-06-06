@@ -7,6 +7,7 @@ export const DISHES =
         category: 'Main Course',
         label:'Hot',
         price:'5',
+        featured:true,
         description:'A hot plate of hummus with sliced mushrooms.'
     },
     {
@@ -16,6 +17,7 @@ export const DISHES =
         category: 'Main Course',
         label:'Hot',
         price:'6',
+        featured:false,
         description:'A hot plate of hummus suhilla'
     },
     {
@@ -25,6 +27,7 @@ export const DISHES =
         category: 'Main Course',
         label:'Hot',
         price:'6',
+        featured:false,
         description:'A hot plate of hummus complett'
     },
     {
@@ -34,6 +37,7 @@ export const DISHES =
         category: 'Main Course',
         label:'Hot',
         price:'5',
+        featured:false,
         description:'A hot plate of hummus with ful (broad beans)'
     }
 ]
