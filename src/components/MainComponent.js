@@ -19,7 +19,7 @@ class Main extends Component {
             comments: COMMENTS,
             promotions: PROMOTIONS,
             leaders: LEADERS,
-            selectedDish: null
+            selectedDish: 0
         };
     }
 
@@ -54,7 +54,6 @@ class Main extends Component {
               <Route exact path='/contactus' component={Contact} />
               <Redirect to='/home' />
             </Switch>
-            <DishDetail dish={this.state.dishes.filter((dish) => dish.id === this.state.selectedDish)[0]} />
             <Footer />
           </div>
         );

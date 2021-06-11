@@ -1,14 +1,17 @@
 import React from 'react';
-import { Card, CardImg, CardText, CardBody, CardTitle, Breadcrumb,
-         BreadcrumbItem } from 'reactstrap';
+import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 function RenderDish({dish}) {
-
+    return (
+      null
+    )
 }
 
 function RenderComments({comments}) {
-
+    return (
+      null
+    )
 }
 
 const DishDetail = (props) => {
