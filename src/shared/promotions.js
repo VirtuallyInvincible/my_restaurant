@@ -1,3 +1,5 @@
+// TODO: Import all data from a node.js server application, which will fetch the data from a MongoDB database.
+
 export const PROMOTIONS = [
     {
       id: 0,
