@@ -37,7 +37,7 @@ class Header extends Component {
 
     render() {
         return (
-          <div>
+          <div className="header">
             <Navbar dark expand="md">
               <div className="container">
                 <NavbarToggler onClick={this.toggleNav} />
