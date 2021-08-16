@@ -69,16 +69,16 @@ class Header extends Component {
                 <Collapse isOpen={this.state.isNavOpen} navbar>
                   <Nav navbar>
                     <NavItem>
-                      <NavLink className="nav-link" to='/home'><span className="fa fa-home fa-lg"></span>Home</NavLink>
+                      <NavLink className="nav-link" to='/home'><span className="fa fa-home fa-lg"></span> Home</NavLink>
                     </NavItem>
                     <NavItem>
-                      <NavLink className="nav-link" to='/aboutus'><span className="fa fa-info fa-lg"></span>About Us</NavLink>
+                      <NavLink className="nav-link" to='/menu'><span className="fa fa-list fa-lg"></span> Menu</NavLink>
                     </NavItem>
                     <NavItem>
-                      <NavLink className="nav-link" to='/menu'><span className="fa fa-list fa-lg"></span>Menu</NavLink>
+                      <NavLink className="nav-link" to='/about'><span className="fa fa-info fa-lg"></span> About</NavLink>
                     </NavItem>
                     <NavItem>
-                      <NavLink className="nav-link" to='/contactus'><span className="fa fa-address-card fa-lg"></span>Contact Us</NavLink>
+                      <NavLink className="nav-link" to='/contact'><span className="fa fa-address-card fa-lg"></span> Contact</NavLink>
                     </NavItem>
                   </Nav>
                   <Nav className="ml-auto" navbar>
@@ -89,14 +89,10 @@ class Header extends Component {
                 </Collapse>
               </div>
             </Navbar>
-            <Jumbotron>
+            <Jumbotron style={{padding: '5px', background: 'light-blue', color: 'blue'}}>
               <div className="container">
-                <div className="row row-header">
-                  <div className="col-12 col-sm-6">
-                    <h1>Shai's Restaurant</h1>
-                    <p>The world's best hummus, and more!</p>
-                  </div>
-                </div>
+                <h1>Shai's Restaurant</h1>
+                <p>The world's best hummus!</p>
               </div>
             </Jumbotron>
           </div>

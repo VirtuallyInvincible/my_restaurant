@@ -70,7 +70,7 @@ class Main extends Component {
                 // About Us page
                 <Route exact path='/menu' component={() => <Menu dishes={this.props.dishes} />} />
                 <Route path='/menu/:dishId' component={DishWithId} />
-                <Route exact path='/contactus' component={Contact} />
+                <Route exact path='/contact' component={Contact} />
                 <Redirect to='/home' />
               </Switch>
             </div>

@@ -226,39 +226,37 @@ class Contact extends Component {
             </div>
           </div>
 
+          <div className="row row-content" style={{minHeight: 'auto'}}>
+            <div className="col-8 col-sm-5">
+              <h3>
+                Or Contact Us Directly
+              </h3>
+              <i className="fa fa-phone"></i>: <a href="tel:+972 000000000">+972 000000000</a><br />
+              <i className="fa fa-fax"></i>: +972 000000000<br />
+              <i className="fa fa-envelope"></i>: <a href="mailto:shai_hummus@food.com">shai_hummus@food.com</a><br />
+            </div>
+            <div className="col-12 col-sm-4 align-self-center">
+              <div className="text-center">
+                <a className="btn btn-social-icon btn-google" href="http://youtube.com/"><i className="fa fa-youtube"></i></a>
+                <a className="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i className="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
           <div className="row row-content">
             <div className="col-12">
               <h3>Location Information</h3>
             </div>
             <div className="col-12 col-sm-4 offset-sm-1">
-              <h5>Our Address</h5>
+              <h5>Address</h5>
               <address>
-                Jabutinsky 5 st.<br />
+                5 Jabutinsky st.<br />
                 Rehovot<br />
                 Israel<br />
-                <i className="fa fa-phone"></i>: 052-000000<br />
-                <i className="fa fa-fax"></i>: 052-111111<br />
-                <i className="fa fa-envelope"></i>: <a href="mailto:shai_restaurant@gmail.com">shai_restaurant@gmail.com</a><br />
               </address>
             </div>
             <div className="col-12 col-sm-6 offset-sm-1">
               <h5>Map of our Location</h5>
-            </div>
-            <div className="col-12 col-sm-11 offset-sm-1">
-              <div className="btn-group" role="group">
-                <a role="button" className="btn btn-primary" href="tel:052-000000"><i className="fa fa-phone"></i> Call</a>
-                <a role="button" className="btn btn-success" href="mailto:shai_restaurant@gmail.com"><i className="fa fa-envelope-o"></i> Email</a>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <Breadcrumb>
-              <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
-              <BreadcrumbItem active>Contact Us</BreadcrumbItem>
-            </Breadcrumb>
-            <div className="col-12">
-              <h3>Contact Us</h3>
-              <hr />
             </div>
           </div>
         </div>
